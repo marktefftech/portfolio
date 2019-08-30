@@ -19,23 +19,34 @@ class SideNav extends Component {
                 <ul id="slide-out" className="sidenav">
                     <li />
                     <li>
-                        <a href="#!">
-                            <i className="material-icons">cloud</i>First Link
-                            With Icon
+                        <a href="/home">
+                            <i className="material-icons">home</i>Home
                         </a>
                     </li>
                     <li>
-                        <a href="#!">Second Link</a>
+                        <a href="/projects">
+                            <i className="material-icons">apps</i>Projects
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/resume">
+                            <i className="material-icons">description</i>Resume
+                        </a>
+                    </li>
+                    <li>
+                        <a href="/resume">
+                            <i className="material-icons">emoji_people</i>Social
+                        </a>
                     </li>
                     <li>
                         <div className="divider" />
                     </li>
                     <li>
-                        <a className="subheader">Subheader</a>
+                        <a className="subheader">Contact</a>
                     </li>
                     <li>
                         <a className="waves-effect" href="#!">
-                            Third Link With Waves
+                            mark@me.com
                         </a>
                     </li>
                 </ul>

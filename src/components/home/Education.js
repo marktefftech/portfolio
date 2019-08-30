@@ -2,11 +2,7 @@ import React from 'react';
 
 const Education = () => {
     return(
-        <div className="container education">
-            <h1 className="cyan darken-2">
-                I am so edumacated
-            </h1>
-        </div>
+        <section className="container education"> I am superrrrrr edumacated</section>
     )
 }
 

@@ -1,7 +1,7 @@
 import React, { Component} from 'react';
-import BrowserRouter from 'react-router-dom';
-import ProjectList from '../projects/ProjectList';
 import Skills from './Skills';
+import Education from './Education';
+import Experience from './Experience';
 
 
 
@@ -10,6 +10,8 @@ class HomePage extends Component {
         return(
             <div className="dashboard container">
                 <Skills /> 
+                <Education />
+                <Experience />
             </div>
         )
     }

@@ -5,6 +5,7 @@ import HomePage from './components/home/HomePage';
 import Landing from './components/home/Landing';
 import ProjectList from './components/projects/ProjectList';
 import ProjectDetails from './components/projects/ProjectDetails';
+import Resume from './components/resume/Resume';
 
 class App extends Component {
     render() {
@@ -16,6 +17,7 @@ class App extends Component {
                <Route exact path='/' component={Landing} />
                <Route exact path='/home' component={HomePage} />
                <Route exact path='/projects' component={ProjectList} />
+               <Route exact path='/resume' component={Resume} />
             </Switch>
          </BrowserRouter>
 

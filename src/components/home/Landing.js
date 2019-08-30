@@ -7,7 +7,7 @@ function Landing() {
             <ul className="center container">
                 <li><NavLink to='/home'>Home</NavLink></li>
                 <li><NavLink to='/projects'>Projects</NavLink></li>
-                <li><NavLink to='/home'>Resume</NavLink></li>
+                <li><NavLink to='/resume'>Resume</NavLink></li>
                 <li><NavLink to='/home'>Social</NavLink></li>
             </ul>
         </div>
