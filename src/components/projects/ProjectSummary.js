@@ -2,11 +2,11 @@
 
  const ProjectSummary = () => {
      return(
-         <div className="card z-depth-0 project-summary">
+         <div className="card project-summary">
             <div className="card-content black-text">
-                <span className="card-title">Project Title</span>
-                <p className="posted-by"> Mark</p>
-                <p className="date">September 20th, 2019</p>
+                <span className="card-title">Peaks</span>
+                <p className="card-content">Event Photography</p>
+                <p className="card-action">2017 to Present</p>
             </div>
          </div>
      )
